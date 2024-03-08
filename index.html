@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./style.css" type="text/css" rel="stylehseet">
+    <style type="text/css">
+        * {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        }
+
+
+        .top {
+
+            background-color: #E21B70;
+            width: 1320px;
+            height: 64px;
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            border-top-left-radius: 4px;
+            color: white;
+            font-size: 17px;
+
+
+
+        }
+
+        .top h3 {
+            transform: translateY(-3px);
+            margin-left: 460px;
+        }
+
+
+        .signup {
+
+            transform: translateY(-58px) translateX(800px);
+            padding: 13px;
+            border-radius: 8px;
+            background-color: #E21B70;
+            color: white;
+            border-color: white;
+            border-style: solid;
+            border-width: 1px;
+            font-size: 14px;
+            font-weight: 500;
+            padding-left: 16px;
+            padding-right: 16px;
+
+
+        }
+
+        .signup:hover {
+            background-color: white;
+            color: #E21B70;
+        }
+
+        .header {
+
+            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+            width: 1320px;
+            position: absolute;
+            top: 10%;
+            right: 0%;
+            height: 72px;
+        }
+
+        .header h3 {
+
+            font-family: Arial, Helvetica, sans-serif;
+            color: #ff4897;
+            font-size: 21px;
+            margin-left: 100px;
+            transform: translateY(-32px);
+
+        }
+
+        .header img {
+            transform: translateX(60px)translateY(20px);
+        }
+
+        .login {
+            color: #E21B70;
+            background-color: white;
+            border-color: #E21B70;
+            border-radius: 8px;
+            border-style: solid;
+            border-width: 1px;
+            padding: 6px;
+            padding-left: 16px;
+            padding-right: 16px;
+            font-weight: 600;
+            font-size: 14px;
+            transform: translateX(900px) translateY(-82px);
+
+        }
+
+        .signup2 {
+            color: #ffffff;
+            background-color: #E21B70;
+            border-color: #E21B70;
+            border-radius: 8px;
+            border-style: solid;
+            border-width: 1px;
+            padding: 6px;
+            padding-left: 16px;
+            padding-right: 16px;
+            font-weight: 600;
+            font-size: 14px;
+            transform: translateX(920px) translateY(-82px);
+        }
+
+        .login:hover {
+            background-color: #fff2f8;
+        }
+
+        .signup2:hover {
+            background-color: rgb(175, 3, 77);
+        }
+
+        .hero {
+
+            background-color: rgb(247, 246, 246);
+            width: 1320px;
+            height: 675px;
+            transform: translateY(100px)translateX(-8px);
+            box-shadow: inset -8px 0px 18px rgba(0, 0, 0, 0.2);
+
+        }
+
+        .hero h2 {
+
+            font-weight: 400;
+            font-size: 41px;
+            width: 700px;
+            transform: translateY(152px) translateX(63px);
+
+        }
+
+        .text {
+
+            padding: 15px;
+            width: 500px;
+            border-radius: 8px;
+            border-color: rgb(197, 197, 197);
+            border-width: 1px;
+            border-style: solid;
+        }
+
+        .findme {
+
+            color: #ffffff;
+            background-color: #E21B70;
+            border-color: #ffffff;
+            border-radius: 8px;
+            border-style: solid;
+            border-width: 1px;
+            padding: 15px;
+            padding-left: 16px;
+            padding-right: 16px;
+            font-weight: 600;
+            font-size: 14px;
+            margin-left: 10px;
+
+        }
+
+        .findme:hover {
+            background-color: rgb(175, 3, 77);
+        }
+
+        .inputs {
+            transform: translateY(152px) translateX(63px);
+            ;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            padding: 13px;
+            background-color: white;
+            width: 650px;
+        }
+
+        .panda {
+            transform: translateY(-250px);
+            margin-left: 765px;
+            overflow: hidden;
+            height: 100%;
+
+
+
+
+        }
+
+        .body1 {
+
+            transform: translateY(-370px);
+            background-color: white;
+            ;
+        }
+
+        .body1 h2 {
+            font-size: 33px;
+            transform: translateY(70px)translateX(63px);
+        }
+
+        .body1 img {
+            margin-top: 70px;
+            position: relative;
+
+
+        }
+
+        .textbox {
+            position: absolute;
+            background-color: white;
+            padding: 20px;
+            width: 532px;
+            top: 68%;
+            left: 5%;
+            padding-top: 1px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+        }
+
+        .textbox p {
+            font-size: 17px;
+        }
+
+        .textbox h3 {
+            font-weight: 400;
+            font-size: 25px;
+
+        }
+
+        .getstarted {
+            color: #ffffff;
+            background-color: #E21B70;
+            border-color: #ffffff;
+            border-radius: 8px;
+            border-style: solid;
+            border-width: 1px;
+            padding: 15px;
+            padding-left: 16px;
+            padding-right: 16px;
+            font-weight: 600;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        .getstarted:hover {
+            background-color: rgb(175, 3, 77);
+        }
+
+        .body2 h3 {
+            font-weight: 400;
+            font-size: 33px;
+
+        }
+
+        .body2 {
+            transform: translateY(-150px)translateX(63px);
+
+        }
+
+
+
+        figure {
+            display: inline-block;
+            position: relative;
+            margin: 0.5%;
+
+        }
+
+        .images img {
+            border-radius: 20px;
+
+
+
+        }
+
+        figcaption {
+            font-size: 22px;
+            font-weight: 350;
+            border-color: #ffffff;
+            border-radius: 8px;
+            border-style: solid;
+            border-width: 1px;
+            padding: 8px;
+            color: black;
+            background-color: white;
+            position: absolute;
+            bottom: 8%;
+            left: 2%;
+
+
+
+        }
+
+        .body3 h3 {
+            font-weight: 400;
+            font-size: 33px;
+            margin-top: 60px;
+        }
+
+        .body3 h4 {
+            font-weight: 400;
+            font-size: 26px;
+
+
+        }
+
+        .body3 p {
+            width: 340px;
+            display: inline-block;
+            margin-left: 20px;
+        }
+
+        .pinkbox {
+            background-color: #E21B70;
+            color: white;
+            width: 1150px;
+            padding: 20px;
+            border-radius: 20px;
+            position: relative;
+            height: 310px;
+        }
+
+        .qr {
+            border: 1px solid white;
+            padding: 5px;
+            border-radius: 5px;
+
+        }
+
+        .mobile {
+
+            position: absolute;
+            bottom: 0.1%;
+            left: 50%;
+        }
+
+        .download {
+            display: block;
+            margin-top: 8px;
+        }
+
+        .body4 h3 {
+            font-weight: 400;
+            font-size: 33px;
+            margin-top: 60px;
+        }
+
+        .body4 figure {
+            height: 400px;
+            width: 1300px;
+            position: relative;
+            transform: translateX(-70px);
+
+
+        }
+
+        .body4 img {
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .textbox2 {
+            position: absolute;
+            background-color: white;
+            padding: 5px;
+            width: 565px;
+            height: 220px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+            bottom: 41%;
+
+        }
+
+        .textbox2 h3 {
+            font-weight: 400;
+            font-size: 25px;
+            margin-left: 19px;
+            margin-bottom: 1%;
+            margin-top: 4%;
+        }
+
+        .textbox2 p {
+            font-size: 17px;
+            width: 535px;
+        }
+
+
+        .getstarted2 {
+            color: #ffffff;
+            background-color: #E21B70;
+            border-color: #ffffff;
+            border-radius: 8px;
+            border-style: solid;
+            border-width: 1px;
+            padding: 15px;
+            padding-left: 16px;
+            padding-right: 16px;
+            font-weight: 600;
+            font-size: 14px;
+            margin-top: 10px;
+            display: block;
+            margin-left: 15px;
+        }
+
+        .getstarted2:hover {
+            background-color: rgb(175, 3, 77);
+        }
+
+        #qna h1 {
+            line-height: 25px;
+
+        }
+
+        #qna {
+
+            transform: translateY(220px);
+            width: 1070px;
+            margin-left: 30px;
+
+        }
+
+        #qna p {
+            width: 1070px;
+            transform: translateX(-20px);
+            font-weight: 100;
+            color: rgb(32, 32, 32);
+            font-size: 17px;
+            line-height: 27px;
+            margin-top: 0%;
+        }
+
+        .h12 {
+            margin-top: 0%;
+        }
+
+        #qna li {
+            transform: translateX(-40px);
+            font-weight: 100;
+            color: rgb(32, 32, 32);
+            font-size: 17px;
+            margin-top: 0%;
+            list-style-type: none;
+            padding-top: 5px;
+
+        }
+
+        #qna li::first-letter {
+            color: #E21B70;
+
+        }
+
+        #qna ul {
+            border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+            padding-bottom: 10px;
+        }
+
+        .h13 {
+            font-size: 23px;
+            color: rgb(71, 71, 71);
+        }
+
+        .questions {
+            font-size: 19px;
+            color: rgb(71, 71, 71);
+            margin-bottom: 5px;
+            margin-top: 5px;
+        }
+
+        .pink {
+            color: #E21B70;
+        }
+
+        .countries {
+            margin-top: 350px;
+            width: 88%;
+            border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+            border-top: 1px solid rgba(128, 128, 128, 0.2);
+            padding-top: 15px;
+            padding-bottom: 15px;
+
+        }
+
+        .countries p {
+            width: 100%;
+            word-spacing: 8px;
+            font-size: 17px;
+            color: rgb(133, 132, 132);
+            font-weight: 100;
+        }
+
+        .footer p {
+            color: rgb(110, 110, 110);
+            font-weight: 500;
+            width: fit-content;
+
+        }
+
+        .footer {
+            border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+            height: 420px;
+            width: fit-content;
+        }
+
+        .table table {
+
+            display: inline;
+        }
+
+        .table {
+            width: 900px;
+            font-weight: 500;
+            font-size: 18px;
+            margin-left: 300px;
+            margin-bottom: 0%;
+            transform: translateY(-45px);
+
+
+        }
+
+        .table td {
+            padding: 7px;
+        }
+
+        .table a:hover {
+            color: rgb(175, 3, 77);
+        }
+
+        .table a {
+            text-decoration: none;
+            color: #ff3f92;
+        }
+
+        .end p {
+            color: #E21B70;
+            font-size: 22px;
+            transform: translateX(-15px) translateY(-9px);
+        }
+
+        .line {
+            color: rgb(61, 61, 61);
+            font-weight: lighter;
+            font-size: 30px;
+            margin-left: 5px;
+
+        }
+
+        .delivery {
+            margin-left: 15px;
+
+        }
+
+        .end svg {
+            float: right;
+            width: 25px;
+            height: fit-content;
+            border: 1px solid rgb(214, 214, 214);
+            border-radius: 100px;
+            padding: 3px;
+            margin-top: 50px;
+            margin: 8px;
+        }
+
+        .end svg:hover {
+            background-color: rgba(242, 80, 129, 0.2);
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="tops">
+        <div class="top">
+            <h3>Do you need a business account?
+            </h3>
+            <input class="signup" type="button" value="SIGN UP NOW" name="SIGN UP NOW" />
+        </div>
+        <div class="header">
+            <img src="./images/foodpanda-350x350.png" alt="logo" width="30px" />
+            <h3>foodpanda</h3>
+            <input class="login" type="button" value="Log In" name="Log In" />
+            <input class="signup2" type="button" value="Sign Up" name="Sign Up" />
+
+        </div>
+    </div>
+    <div class="hero">
+        <h2>It's the food and groceries you love, delivered</h2>
+        <div class="inputs"> <input class="text" type="text" name="address"
+                placeholder="Your street and street number" />
+            <input class="findme" type="button" name="Find Food" value="Find Food" />
+        </div>
+
+        <div class="panda"><img src="images/refresh-hero-home-pk.webp" alt="heropanda" width="900px" /> </div>
+        <br />
+        <div class="body1">
+            <h2>You prepare the food, we handle the rest</h2>
+            <img src="./images/home-vendor-pk.jpg" alt="cooking" width="1300px" />
+            <div class="textbox">
+                <h3>List your restaurant or shop on foodpanda</h3>
+                <p>Would you like millions of new customers to enjoy your amazing food and groceries? So would we!</p>
+                <p>It's simple: we list your menu and product lists online, help you process orders, pick them up, and
+                    deliver them to hungry pandas – in a heartbeat!</p>
+                <p>Interested? Let's start our partnership today!</p>
+                <input class="getstarted" type="button" name="Get Started " value="Get Started" />
+            </div>
+        </div>
+        <div class="body2">
+            <h3>Find us in these cities and many more!</h3>
+            <div class="images">
+                <figure><img src="./images/Islamabad.webp" alt="Islamabad" width="280px" height="250px" />
+                    <figcaption>Islamabad</figcaption>
+                </figure>
+                <figure> <img src="./images/Karachi.webp" alt="Karachi" width="280px" height="250px" />
+                    <figcaption>Karachi</figcaption>
+                </figure>
+                <figure><img src="./images/Lahore.webp" alt="Lahore" width="280px" height="250px" />
+                    <figcaption>Lahore</figcaption>
+                </figure>
+                <figure> <img src="./images/Faisalabad.webp" alt="Faisalabad" width="280px" height="250px" />
+                    <figcaption>Faislabad</figcaption>
+                </figure>
+                <figure> <img src="./images/Rawalpindi.webp" alt="Rawalpindi" width="280px" height="250px" />
+                    <figcaption>Rawalpindi</figcaption>
+                </figure>
+
+                <figure> <img src="./images/Abottabad.webp" alt="Abottabad" width="280px" height="250px" />
+                    <figcaption>Abottabad</figcaption>
+                </figure>
+                <figure> <img src="./images/city-tile-Bahawalpur.webp" alt="Bahawalpur" width="280px" height="250px" />
+                    <figcaption>Bahawalpur</figcaption>
+                </figure>
+                <figure> <img src="./images/city-tile-DeraGhaziKhan.webp" alt="DeraGhaziKhan" width="280px"
+                        height="250px" />
+                    <figcaption>DeraGhaziKhan</figcaption>
+                </figure>
+                <figure> <img src="./images/city-tile-Gujranwala.webp" alt="Gujranwala" width="280px" height="250px" />
+                    <figcaption>Gujranwala</figcaption>
+                </figure>
+                <figure> <img src="./images/city-tile-Gujrat.jpg.webp" alt="Gujrat" width="280px" height="250px" />
+                    <figcaption>Gujrat</figcaption>
+                </figure>
+                <figure> <img src="./images/Hyderabad.webp" alt="Hyderabad" width="280px" height="250px" />
+                    <figcaption>Hyderabad</figcaption>
+                </figure>
+                <figure> <img src="./images/city-tile-Jhelum.webp" alt="Jhelum" width="280px" height="250px" />
+                    <figcaption>Jhelum</figcaption>
+                </figure>
+                <figure> <img src="./images/city-tile-Kamoke.webp" alt="kamoke" width="280px" height="250px" />
+                    <figcaption>Kamoke</figcaption>
+                </figure>
+                <figure> <img src="./images/city-tile-Larkana.webp" alt="larkana" width="280px" height="250px" />
+                    <figcaption>Larkana</figcaption>
+                </figure>
+                <figure> <img src="./images/city-tile-Mangla.webp" alt="mangla" width="280px" height="250px" />
+                    <figcaption>Mangla</figcaption>
+                </figure>
+                <figure> <img src="./images/city-tile-Mardan.webp" alt="mardan" width="280px" height="250px" />
+                    <figcaption>Mardan</figcaption>
+                </figure>
+                <figure> <img src="./images/Multan.webp" alt="multan" width="280px" height="250px" />
+                    <figcaption>Multan</figcaption>
+                </figure>
+                <figure> <img src="./images/city-tile-Murree.webp" alt="murree" width="280px" height="250px" />
+                    <figcaption>Murree</figcaption>
+                </figure>
+                <figure> <img src="./images/city-tile-Okara.webp" alt="okara" width="280px" height="250px" />
+                    <figcaption>Okara</figcaption>
+                </figure>
+                <figure> <img src="./images/city-tile-PanoAqil.webp" alt="PanoAqil" width="280px" height="250px" />
+                    <figcaption>Pano Aqil</figcaption>
+                </figure>
+                <figure> <img src="./images/Peshawar.webp" alt="Peshawar" width="280px" height="250px" />
+                    <figcaption>Peshawar</figcaption>
+                </figure>
+                <figure> <img src="./images/city-tile-Quetta.webp" alt="quetta" width="280px" height="250px" />
+                    <figcaption>Quetta</figcaption>
+                </figure>
+                <figure> <img src="./images/city-tile-RahimYarKhan.webp" alt="RahimYarKhan" width="280px"
+                        height="250px" />
+                    <figcaption>Rahim Yar Khan</figcaption>
+                </figure>
+                <figure> <img src="./images/city-tile-Sadiqabad.webp" alt="Sadiqabad" width="280px" height="250px" />
+                    <figcaption>Sadiqabad</figcaption>
+                </figure>
+                <figure> <img src="./images/city-tile-Sahiwal.webp" alt="sahiwal" width="280px" height="250px" />
+                    <figcaption>Sahiwal</figcaption>
+                </figure>
+                <figure> <img src="./images/city-tile-Sargodha.webp" alt="Sargodha" width="280px" height="250px" />
+                    <figcaption>Sarghoda</figcaption>
+                </figure>
+                <figure> <img src="./images/city-tile-Sheikhupura.jpg.webp" alt="sheikhupura" width="280px"
+                        height="250px" />
+                    <figcaption>Sheikhupura</figcaption>
+                </figure>
+                <figure> <img src="./images/Sialkot.webp" alt="sialkot" width="280px" height="250px" />
+                    <figcaption>Sialkot</figcaption>
+                </figure>
+                <figure> <img src="./images/Sukkur.webp" alt="sukkur" width="280px" height="250px" />
+                    <figcaption>Sukkur</figcaption>
+                </figure>
+                <figure> <img src="./images/city-tile-WahhCannt.webp" alt="WahhCannt" width="280px" height="250px" />
+                    <figcaption>Wah Cantt</figcaption>
+                </figure>
+            </div>
+            <div class="body3">
+                <h3>Put us in your pocket</h3>
+                <div class="pinkbox">
+                    <h4>Download the food and groceries you love</h4>
+                    <img class="qr" src="./images/pkhomepageqrcode.png" alt="qr code" width="75px">
+                    <p>It's all at your fingertips – the restaurants and shops you love. Find the right food and
+                        groceries to suit your mood, and make the first bite last. Go ahead, download us.</p>
+                    <img class="mobile" src="./images/home-foodpanda-apps.webp" alt="foodpanda app" width="600px">
+                    <img class="download" src="./images/Google-Play-App-Store-PNG-Transparent-Image.png" alt="download"
+                        width="240px">
+                </div>
+                <div class="body4">
+                    <h3>Take your office out to lunch
+                    </h3>
+                    <figure><img src="./images/home-corporate-pk.jpg" alt="corporate"></figure>
+                    <div class="textbox2">
+                        <h3>foodpanda for business</h3>
+                        <p>Order lunch or fuel for work-from-home, late nights in the office, corporate events, client
+                            meetings, and much more.</p>
+                        <input class="getstarted2" type="button" name="Get Started " value="Get Started" />
+                    </div>
+
+                </div>
+                <div id="qna">
+                    <h1>Order food and groceries online from the best restaurants and shops on foodpanda</h1>
+                    <p>Are you hungry? Did you have a long and stressful day? Interested in getting a cheesy pizza
+                        delivered to your office or looking to avoid the weekly shop? Then foodpanda Pakistan is the
+                        right destination for you! foodpanda offers you a long and detailed list of the best restaurants
+                        and shops near you to help make your every day easier.</p>
+                    <h1 class="h12">What's new?</h1>
+                    <ul>
+                        <li>✓ Wide variety of restaurants and shops, an abundance of cuisines & products.</li>
+                        <li>✓ High quality delivery service.</li>
+                        <li>✓ Live chat feature to give App users instant help when they need it.</li>
+                        <li>✓ NEW: foodpanda grocery delivery! Discover the best shops, pharmacies, bakeries and more
+                            near you.</li>
+                    </ul>
+                    <h1 class="h13">Frequently Asked Questions</h1>
+                    <h1 class="questions">How can I get foodpanda delivery?</h1>
+                    <p>To get foodpanda delivery, simply locate the restaurants and shops near you by typing in your
+                        address, browse through a variety of restaurants and cuisines, check menus and prices, choose
+                        your dishes and add them to the basket. Now you only need to checkout and make the payment. Soon
+                        your delicious food will arrive at your doorstep!</p>
+                    <h1 class="questions">Which takeout restaurants open now near me?</h1>
+                    <p>You can check which takeout restaurants are open now near you by simply typing your address in
+                        the location bar on foodpanda and pressing search. You will see all the available restaurants
+                        and shops that deliver to your area.</p>
+                    <h1 class="questions">Does foodpanda deliver 24 hours?</h1>
+                    <p>Yes, foodpanda in Pakistan delivers 24 hours. However, many restaurants may be unavailable for a
+                        late-night delivery. Please check which places in Pakistan deliver to you within 24 hours by
+                        using your address. You can also order groceries 24 hours a day via pandamart.</p>
+                    <h1 class="questions">Can you pay cash for foodpanda?</h1>
+                    <p>Yes, you can pay cash on delivery for foodpanda in Pakistan.</p>
+                    <h1 class="questions">How can I pay foodpanda online?</h1>
+                    <p>You can pay online while ordering at foodpanda Pakistan by using a credit or debit card or
+                        PayPal.</p>
+                    <h1 class="questions">Can I order foodpanda for someone else?</h1>
+                    <p>es, foodpanda Pakistan allows you to place an order for someone else. During checkout, just
+                        update the name and delivery address of the person you're ordering for. Please keep in mind that
+                        if the delivery details are not correct and the order cannot be delivered, we won't be able to
+                        process a refund.</p>
+                    <h1 class="questions">How much does foodpanda charge for delivery?</h1>
+                    <p>Delivery fee charged by foodpanda in Pakistan depends on many operational factors, most of all -
+                        location and the restaurant you are ordering from. You can always check the delivery fee while
+                        forming your order. Besides, you can filter the restaurants by clicking on the "Free Delivery"
+                        icon at the top of your restaurant listing.</p>
+                    <h1 class="questions">What restaurants let you order online?</h1>
+                    <p>There are hundreds of restaurants on foodpanda Pakistan that let you order online. For
+                        example,<span class="pink"> KFC, McDonald's, Pizza Hut, OPTP, Hardee's, Domino's, Kababjees
+                        </span>and many-many more! In order to check all the restaurants near you that deliver, just
+                        type in your address and discover all the available places.</p>
+                    <h1 class=" questions">Does foodpanda have minimum order?</h1>
+                    <p>Yes, many restaurants have a minimum order. The minimum order value depends on the restaurant you
+                        order from and is indicated during your ordering process.</p>
+                    <h1 class="questions">What is the difference between delivery and Pick-Up?</h1>
+                    <p>If you choose delivery, a foodpanda rider will collect your order from the restaurant and take it
+                        to your chosen delivery address. If you choose Pick-Up, you can takeaway your food directly from
+                        the restaurant for extra savings – and to jump to the front of the queue. Pick-Up orders are
+                        available for restaurants only.</p>
+                    <h1 class="questions">Order food and groceries online with foodpanda now and enjoy a great dining
+                        experience!</h1>
+                </div>
+                <div class="countries">
+                    <p>Laos | Cambodia | Myanmar | Thailand | Hong Kong | Taiwan | Malaysia | Philippines | Singapore |
+                        Bangladesh</p>
+                </div>
+                <div class="footer">
+                    <p>© foodpanda</p>
+                    <div class="table">
+                        <table>
+                            <tr>
+                                <td><a href=#>Press</a></td>
+                                <td><a href=#>Help Center</a></td>
+                                <td><a href=#>Refunds with pandapay</a></td>
+
+
+                            </tr>
+                            <tr>
+                                <td><a href=#>pandapay Terms and Conditions</a></td>
+                                <td><a href=#>Terms and Conditions</a></td>
+                                <td><a href=#>Privacy policy</a></td>
+
+                            </tr>
+                            <tr>
+                                <td><a href=#>Security</a></td>
+                                <td><a href=#>Download foodpanda Apps</a></td>
+                                <td><a href=#>Human rights policy</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href=#>
+                                        Careers </a>
+                                </td>
+                                <td><a href=#>Suggest a Restaurant</a></td>
+                                <td><a href=#>Corporate Customer</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href=#>
+                                        Cashback Terms and Conditions</a>
+
+                                </td>
+                                <td><a href=#>All cuisines</a></td>
+                                <td><a href=#>foodpanda Magazine</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href=#>
+                                        Partner with Us</a>
+                                </td>
+                                <td><a href=#>pandago - Request a Rider</a></td>
+                                <td><a href=#>foodpanda Vouchers & Coupons</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href=#>All cities</a></td>
+                                <td><a href=#>Update on COVID-19 in Pakistan</a></td>
+                                <td><a href=#>pandamart Grocery Delivery</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href=#>pandapro - Monthly Subscription<br /> Programme</a></td>
+                                <td><a href=#>foodpanda Home Chef</a></td>
+                                <td><a href=#>Become an Affiliate</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href=#>Ramzan deals</a></td>
+                                <td><a href=#></a></td>
+                                <td><a href=#></a></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="end">
+                        <img src="./images/foodpanda-350x350.png" alt="logo" width="30px">
+                        <p>foodpanda <span class="line">|</span><img class=delivery
+                                src="./images/gcrp_delivery-hero-logo.b3aeaa65dc0194e8633c3e31e0c07b41ad354b21.png"
+                                alt="logo" width="120px"> </p>
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
+                            viewBox="0,0,256,256" style="fill:#F25081;">
+                            <g fill="#f25081" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <g transform="scale(10.66667,10.66667)">
+                                    <path
+                                        d="M12,2c-5.511,0 -10,4.489 -10,10c0,5.511 4.489,10 10,10c5.511,0 10,-4.489 10,-10c0,-5.511 -4.489,-10 -10,-10zM12,4c4.43012,0 8,3.56988 8,8c0,4.01447 -2.93468,7.31302 -6.78125,7.89844v-5.51367h2.32813l0.36523,-2.36524h-2.69336v-1.29297c0,-0.983 0.32023,-1.85547 1.24023,-1.85547h1.47656v-2.06445c-0.26,-0.035 -0.8087,-0.11133 -1.8457,-0.11133c-2.166,0 -3.43555,1.144 -3.43555,3.75v1.57422h-2.22656v2.36524h2.22656v5.49414c-3.78401,-0.63806 -6.6543,-3.90867 -6.6543,-7.87891c0,-4.43012 3.56988,-8 8,-8z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
+                            viewBox="0,0,256,256" style="fill:#F25081;">
+                            <g fill="#f25081" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <g transform="scale(10.66667,10.66667)">
+                                    <path
+                                        d="M8,3c-2.757,0 -5,2.243 -5,5v8c0,2.757 2.243,5 5,5h8c2.757,0 5,-2.243 5,-5v-8c0,-2.757 -2.243,-5 -5,-5zM8,5h8c1.654,0 3,1.346 3,3v8c0,1.654 -1.346,3 -3,3h-8c-1.654,0 -3,-1.346 -3,-3v-8c0,-1.654 1.346,-3 3,-3zM17,6c-0.55228,0 -1,0.44772 -1,1c0,0.55228 0.44772,1 1,1c0.55228,0 1,-0.44772 1,-1c0,-0.55228 -0.44772,-1 -1,-1zM12,7c-2.757,0 -5,2.243 -5,5c0,2.757 2.243,5 5,5c2.757,0 5,-2.243 5,-5c0,-2.757 -2.243,-5 -5,-5zM12,9c1.654,0 3,1.346 3,3c0,1.654 -1.346,3 -3,3c-1.654,0 -3,-1.346 -3,-3c0,-1.654 1.346,-3 3,-3z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+
+                    </div>
+
+
+
+
+
+</body>
+
+</html>
